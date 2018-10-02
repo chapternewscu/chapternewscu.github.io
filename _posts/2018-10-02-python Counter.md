@@ -16,7 +16,7 @@ tags:                                 # 标签
 > 计算结果以字典形式保存。键为被统计的元素,值为元素的个数。
 
 ## Counter 常用函数
->
+
 ### Counter 初始化
 > Counter 初始化传入为可迭代对象或空（Counte(iterable=None)）。
 
