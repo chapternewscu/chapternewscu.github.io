@@ -37,3 +37,7 @@ tags:                                 # 标签
 > * 支持两个Counter的并集。如果两个Counter含有的键值相同，返回统计次数最大的一个。
 > * 支持两个Counter的交集。返回统计次数最小的一个（有相同键值情况下）。
 
+
+### 值得学习的设计
+> * 继承DICT类以后， self[element] = dict[key]
+> * __missing__ 魔方函数， 在__getitem__(key)的key键不存在时, 可以默认返回一个值。
